@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brezel coockie</title>
-</head>
-<body>
-    <p>Новая булочная =)</p>
-    <p>Новая =)</p>
-</body>
+<html lang="ru"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Новая булочная =)</title>
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+
+    <body class="body">
+        
+        <div class="page">
+
+            <header class="header">
+                <h1 class="header__title">Домашняя выпечка</h1>
+            </header>
+
+            <main class="content"> 
+                <section class="produсt">
+                    <h2 class="produсt__title">Напиши ответы и получи заказ от шеф-повара&#58;</h2>
+                    <ul class="produсt__list">
+                        <li>Название&#58;<span class="produсt__info" id="produсt__info-name"></span></li>
+                        <li>Вес&#58;<span class="produсt__info" id="produсt__info-masse"></span></li>
+                        <li>Цена&#58;<span class="produсt__info" id="produсt__info-preis"></span></li>
+                    </ul>
+                </section>  
+            </main>          
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
+
