@@ -21,6 +21,7 @@ for (let i = 0;i<2;i = check ? ++i : i){
             alert("Скидка некорректна");
         }    
     }
+    
     if(!check){
         if(!productName || !(+discount)){
             if(confirm("Данные введены некорректно, заново?")) continue;

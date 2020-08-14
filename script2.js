@@ -43,3 +43,14 @@ for(let i = 0; i < 3; i++) {
     }
 }
 
+for (let i = 0; i < 4; i++) {
+    const a = "########";
+    console.log(a);
+}
+
+let a = "";
+for (let i = 0; i < 7; i++) {
+    //a = a + "#";
+    a += "#";
+    console.log(a);
+}
